@@ -22,6 +22,7 @@ int func_call(char *cmd, stack_t **stack, unsigned int line_number)
 		{"mul", mul},
 		{"div", divide},
 		{"nop", nop},
+		{"mod", mod},
 		{NULL, NULL}
 		};
 	i = 0;
